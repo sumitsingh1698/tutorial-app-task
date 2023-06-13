@@ -14,4 +14,8 @@ routes.get("/:class/:chapter",(req,res) => {
     res.render("index", {data : result});
 });
 
+routes.all('*', (req,res) => {
+    res.render('notfound');
+})
+
 module.exports = routes;
