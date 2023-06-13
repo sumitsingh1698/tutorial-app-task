@@ -1,29 +1,33 @@
 const express = require("express");
 const serverless = require("serverless-http");
 
-const hbs = require('hbs');
+const hbs = require("hbs");
+
 const app = express();
 
 const routes = require("./routes/main")
 const apiRoutes = require("./routes/api")
 const router = express.Router();
 
-app.use("/static",express.static("public"))
-app.use('/tutorial',routes)
-app.use('/api',apiRoutes)
+app.use("/static", express.static("public"))
+app.use('/tutorial', routes)
+app.use('/api', apiRoutes)
+
+router.get("/", (req, res) => {
+    res.render("hello");
+})
 
 // Template Engine
-app.use(`/.netlify/functions/api`, router);
 
-app.set('view engine','hbs')
-app.set("views","views")
+app.set('view engine', 'hbs')
+app.set("views", "views")
 hbs.registerPartials("views/partials")
 
-// app.listen(process.env.PORT | 5556, () => {
-//     console.log("server started")
-// });
+app.listen(3000, () => {
+    console.log("started");
+});
 
+// app.use(`/.netlify/functions/app`, router);
 
-
-module.exports = app;
-module.exports.handler = serverless(app);
+// module.exports = app;
+// module.exports = serverless(app);
