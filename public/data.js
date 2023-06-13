@@ -17,7 +17,7 @@
     });
 })();
 var currentPage = 1;
-var hostUrl = "http://localhost:5556";
+var hostUrl = "https://tutorial-app-7bfl.onrender.com/";
 const GetAPICall = async (url) => {
     const response = await fetch(hostUrl + url);
     const myJson = await response.json();
