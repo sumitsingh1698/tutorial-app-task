@@ -1,0 +1,49 @@
+{
+    "classes": [
+        {
+            "key": "class4",
+            "chapters": [
+                {
+                    "key": "chapter1",
+                    "artical": [
+                        {
+                            "page": 1,
+                            "content": "<div class='my-2'><img height='300px' width='500px' src='https://img.jagranjosh.com/imported/images/E/Articles/maths2.jpg'/></div><h2>Numbers up to 3 Digit</h2><p>3-digit numbers begin with 100 and end on 999. These numbers consist of 3 digits in which the first digit should be 1 or greater than 1 and the remaining 3 digits can be any number from 0 to 9. Learning 3-digit numbers is the building block for higher-digit numbers. Let us explore more about the importance, formation, and place value of numbers up to 3 digit.</p><h3>What are 3-Digit Numbers?</h3><p>3-digit numbers are those numbers that consist of only 3 digits. They start from 100 and go on till 999.For example, 673, 104, 985 are 3-digit numbers. It is to be noted that the first digit of a three-digit number cannot be zero because in that case, it becomes a 2-digit number. For example, 045 becomes 45.</p>"
+                        },
+                        {
+                            "page": 2,
+                            "content": "<h2>3 Digit Addition</h2><p><strong>3-digit addition</strong> is the addition of numbers where either one or all the addends are of 3 digits. We know that addition is an operation used in Math to get the sum of numbers. While the addition of one-digit numbers can be done mentally, the addition of 3 digit numbers needs to follow some rules. 3 digit addition can be done with regrouping or without regrouping using the basic rules of addition. Let us learn more about 3-digit addition in this article.</p><h2>What is 3-Digit Addition?</h2><p>In 3-digit addition, we need to place the given numbers into columns according to their respective place values, like ones, tens, hundreds, thousands, and so on. The addition of 3-digit numbers is similar to 2-digit numbers where numbers can be added without regrouping (carrying) or with regrouping. It should be noted that the numbers that are being added are called addends and the answer that is obtained after adding these numbers is called their sum. Let us see the basic steps that are followed in 3-digit addition.</p>"
+                        },
+                        {
+                            "page": 3,
+                            "content": "<h2>3-Digit Addition Without Regrouping</h2><p>While adding 3-digit numbers, if the sum of any 2 digits is less than or equal to 9, we write the sum below the respective column and after all the columns are added, the answer is obtained. This is called addition without regrouping. For example, let us add the numbers 148 and 431 to see 3-digit addition without regrouping.</p><p><img alt='3 Digit Addition Without Regrouping' src='https://d138zd1ktt9iqe.cloudfront.net/media/seo_landing_files/3-digit-addition-01-1-1654173143.png' style='width: 400px;'></p><p>Let us understand 3-digit addition with the help of the following steps:</p><ul><li>Step 1: Add the numbers under the ones column. 8 + 1 = 9. Write the sum (9) in ones column.</li><li>Step 2: Add the numbers under the tens column. 4 + 3 = 7. Write the sum (7) in the tens column.</li><li>Step 3: Add the numbers under the hundreds column. 1 + 4 = 5. Write the sum (5) in the hundreds column.</li></ul><p>Thus, the sum of the numbers 148 and 431 is 579.</p>"
+                        },
+                        {
+                            "page": 4,
+                            "content": ""
+                        },
+                        {
+                            "page": 5,
+                            "content": " "
+                        }
+                    ],
+                    "video": [
+                        {
+                            "page" : 1,
+                            "content": "<h2 class='my-3'>Using place value to add 3-digit numbers: part 1<h2><iframe width='100%' height='500px' src='https://www.youtube.com/embed/Wm0zq-NqEFs'></iframe>"
+                        },
+                        {
+                            "page" : 2,
+                            "content": "<h2 class='my-3'>Using place value to add 3-digit numbers: part 2<h2><iframe width='100%' height='500px' src='https://www.youtube.com/embed/O9zSHs1TWMM'></iframe>"
+                        },
+                        {
+                            "page" : 3,
+                            "content": "<h2 class='my-3'>Adding 3-digit numbers<h2><iframe width='100%' height='500px' src='https://www.youtube.com/embed/9hM32lsQ4aI'></iframe>"
+                        }
+                    ],
+                    "faq": []
+                }
+            ]
+        }
+    ]
+}

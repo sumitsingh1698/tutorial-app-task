@@ -1,0 +1,23 @@
+.title {
+    font-size: 3rem;
+}
+
+
+.breadcrum-item {}
+
+.vertical-line {
+    border-left: 1px solid black;
+    height: 40px;
+}
+.last-modified {
+    font-size: 12px;
+}
+
+
+/*----------------- Media Query---------------------- */
+
+@media screen and (max-width: 991px) {
+  .vertical-line {
+     display: none;
+  }
+}
